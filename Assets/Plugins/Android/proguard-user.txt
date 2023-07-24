@@ -1,0 +1,4 @@
+-keep class com.facebook.** { *; }
+-keepattributes Signature
+-keep class com.devtodev.** { *; }
+-dontwarn com.devtodev.**
